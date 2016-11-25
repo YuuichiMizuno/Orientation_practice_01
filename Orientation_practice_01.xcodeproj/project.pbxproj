@@ -12,6 +12,7 @@
 		4B35054E1DE7E32C00421B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B35054C1DE7E32C00421B04 /* Main.storyboard */; };
 		4B3505501DE7E32C00421B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B35054F1DE7E32C00421B04 /* Assets.xcassets */; };
 		4B3505531DE7E32C00421B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3505511DE7E32C00421B04 /* LaunchScreen.storyboard */; };
+		4B35055B1DE7E8AA00421B04 /* OriginNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35055A1DE7E8AA00421B04 /* OriginNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4B35054F1DE7E32C00421B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B3505521DE7E32C00421B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B3505541DE7E32C00421B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B35055A1DE7E8AA00421B04 /* OriginNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +56,13 @@
 		4B3505471DE7E32C00421B04 /* Orientation_practice_01 */ = {
 			isa = PBXGroup;
 			children = (
+				4B3505541DE7E32C00421B04 /* Info.plist */,
+				4B3505511DE7E32C00421B04 /* LaunchScreen.storyboard */,
+				4B35054C1DE7E32C00421B04 /* Main.storyboard */,
 				4B3505481DE7E32C00421B04 /* AppDelegate.swift */,
 				4B35054A1DE7E32C00421B04 /* ViewController.swift */,
-				4B35054C1DE7E32C00421B04 /* Main.storyboard */,
+				4B35055A1DE7E8AA00421B04 /* OriginNavigationController.swift */,
 				4B35054F1DE7E32C00421B04 /* Assets.xcassets */,
-				4B3505511DE7E32C00421B04 /* LaunchScreen.storyboard */,
-				4B3505541DE7E32C00421B04 /* Info.plist */,
 			);
 			path = Orientation_practice_01;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B35054B1DE7E32C00421B04 /* ViewController.swift in Sources */,
+				4B35055B1DE7E8AA00421B04 /* OriginNavigationController.swift in Sources */,
 				4B3505491DE7E32C00421B04 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +271,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "atoms.Orientation-practice-01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -280,6 +285,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "atoms.Orientation-practice-01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
